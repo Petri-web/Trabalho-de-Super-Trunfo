@@ -212,10 +212,12 @@ int main(){
                 printf("Empate!");
             }
         }
+        break;
         //As regras do jogo são visualizadas aqui
         case 2:
             printf("O atributo que você escolher será comparado entre as duas cartas, e vencerá a carta que tiver maior número nesse atributo, com exceção de ***Densidade Populacional***, que vencerá o menor número");
         //Aqui o programa se encerra caso o Jogador não queira jogar
+        break;
         case 3:
         return (0);
         //Garantia de que o terminal sempre responderá à qualquer informação do usuário
